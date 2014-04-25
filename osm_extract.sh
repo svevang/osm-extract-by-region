@@ -11,6 +11,4 @@ if [ $# -ne 2 ]; then
   exit 1
 fi
 
-REGION=$1
-FEATURE=$2
-make -f ./Makefile
+REGION=$1 FEATURE=$2 make -f ./Makefile
