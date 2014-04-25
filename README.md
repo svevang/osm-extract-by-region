@@ -8,6 +8,10 @@ it.
 Getting Started
 ---------------
 
+Install osmosis
+
+`apt-get install osmosis`
+
 Run the supplied script with region and feature parameters. e.g:
 
 `./osm_extract.sh central-america puerto-rico`
@@ -15,10 +19,12 @@ Run the supplied script with region and feature parameters. e.g:
 this will output a file "extractions/puerto-rico.osm" that contains all
 the osm data for puerto rico.
 
+Thanks ta [geo-fabrick](http://download.geofabrik.de/)!
+
 Features
 --------
 
-Don't see the feature you want? 
+Don't see the feature you want? Here is a way to make your own:
 
 1) Open google earth and create a polygon
 2) export the coordinates in a kml
